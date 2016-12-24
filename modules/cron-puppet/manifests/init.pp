@@ -18,6 +18,6 @@ class cron-puppet {
         ensure     => present,
         uid        => '123',
         shell      => '/bin/bash',
-        home       => '/home/mitchell'
+        home       => '/home/$ROLE'
     }
 }
