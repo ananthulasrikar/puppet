@@ -16,8 +16,8 @@ class cron-puppet {
     }
     user { 'mitchell':
         ensure     => present,
-        uid        => '123',
+        uid        => $num,
         shell      => '/bin/bash',
-        home       => '/home/$ROLE'
+        home       => '/home/mitchell'
     }
 }
