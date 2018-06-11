@@ -1,5 +1,3 @@
-class profile::java {
-  class { 'java':
+class { 'java':
     distribution => 'jre',
   }
-}
