@@ -11,5 +11,4 @@ mv puppet/ puppet-bak
 git clone http://github.com/ananthulasrikar/puppet.git /etc/puppet
 
 # Run Puppet initially to set up the auto-deploy mechanism
-puppet_bin = echo `which puppet`
-$puppet_bin apply /etc/puppet/manifests/site.pp
+puppet apply /etc/puppet/manifests/site.pp --modulepath /etc/puppet/modules:/etc/puppet/plugins
