@@ -1,3 +1,3 @@
 node default {
-    include cron-puppet
+    include srikar
 }
