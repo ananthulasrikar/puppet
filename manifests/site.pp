@@ -1,4 +1,4 @@
 node default {
     include cron-puppet
-    include java-module
+    include java-module::java
 }
